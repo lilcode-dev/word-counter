@@ -18,7 +18,6 @@ const counter = ( e ) => {
   // text = text.replace(/^[.]/g,""); // reducido
   // text = text.replace(/^[.]/g,"");// reducido
   textArea.value = text;
-  console.log(textArea.value.length);
   countCarac.textContent = textArea.value.length;
 
 	
